@@ -6,6 +6,9 @@
 cargo test
 cargo test --target wasm32-wasip1
 cargo test --target wasm32-unknown-unknown
+
+# just checking
+cargo check --target thumbv7m-none-eabi --features alloc --no-default-features
 ```
 
 ## Benchmarking example
